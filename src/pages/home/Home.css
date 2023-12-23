@@ -22,10 +22,12 @@
 }
 
 @keyframes anim {
+
   0%,
   100% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(0.9);
   }
@@ -276,6 +278,11 @@
   padding: 0.8rem 3rem;
 }
 
+.inner-icon {
+  display: flex;
+  gap: 5px;
+}
+
 .newsletter .glass .row a img {
   height: 1.5rem;
   margin-left: 0.5rem;
@@ -523,5 +530,29 @@
     position: static;
     width: 100%;
     margin-top: 2.5rem;
+  }
+}
+
+@media screen and (max-width:767px){
+  /* hero section */
+  .herosecond {
+    position: relative;
+  }
+  .herosecond .hero-text{
+    display: flex;
+    position: absolute;
+    /* top: 30px; */
+  }
+}
+@media screen and (max-width:440px){
+  /* hero section */
+  .herosecond.hero-text{
+    padding: 16px 0px;
+  }
+  .hero p{
+    font-size: 16px;
+  }
+  .hero-text .inner h1{
+    font-size: 3rem;
   }
 }

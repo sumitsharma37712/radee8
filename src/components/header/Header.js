@@ -8,7 +8,7 @@ import './Header.css';
 import Logo from '../../assets/images/logo.png';
 
 const Header = () => {
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(true);
   const [sticky, setSticky] = useState(false);
   const menuHandler = () => {
     setMenu(!menu);

@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import {FaLinkedin} from 'react-icons/fa'
+import {FaFacebook} from 'react-icons/fa6'
 // Style
 import './Home.css';
 
 // Images
 import HomeVector from '../../assets/images/home-vector.png';
 import Logo from '../../assets/images/logo.png';
-import youtubeIcon from '../../assets/images/youtube.png';
-import podcastIcon from '../../assets/images/podcast.png';
+// import youtubeIcon from '../../assets/images/youtube.png';
+// import podcastIcon from '../../assets/images/podcast.png';
 
 // Components
 import Tile from '../../components/tile/Tile.js';
@@ -20,8 +21,8 @@ const Home = () => {
     <>
       <section className="hero" id="hero">
         <div className="container">
-          <div className="row flex-wrap wrap-reverse align-items-center ">
-            <div className="column column-60">
+          <div className="row flex-wrap wrap-reverse align-items-center herosecond  ">
+            <div className="column column-60 hero-text">
               <div className="inner">
                 <h1 data-aos="fade-up" data-aos-duration="1000">
                   Elevate Your Global Business with Radee8
@@ -410,22 +411,28 @@ const Home = () => {
                     <div className="column column-50">
                       <div className="inner">
                         <a
-                          href="https://www.youtube.com/"
+                          href="https://www.linkedin.com/"
                           rel="noreferrer"
                           target="_blank"
                         >
-                          YouTube<img src={youtubeIcon} alt="YouTube"></img>
+                          LinkedIn &nbsp;<FaLinkedin style={{color:'#808080'}}/>
                         </a>
                       </div>
                     </div>
                     <div className="column column-50">
                       <div className="inner">
                         <a
-                          href="https://www.youtube.com/"
+                          href="https://www.facebook.com/"
                           rel="noreferrer"
-                          target="_blank"
-                        >
-                          Podcast<img src={podcastIcon} alt="YouTube"></img>
+                          target="_blank" className='inner-icon'
+                          >
+                          Facebook 
+                          <div>
+                            <FaFacebook style={{color:'#808080'}}/>
+
+                          </div>
+
+                          {/* Facebook &nbsp; <img src={podcastIcon} alt="Podcast"></img> */}
                         </a>
                       </div>
                     </div>

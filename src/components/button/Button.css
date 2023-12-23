@@ -12,6 +12,7 @@
 
 .button:hover {
   background: var(--white);
+  color: var(--black);
 }
 
 /* Media Queries */

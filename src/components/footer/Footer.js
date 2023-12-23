@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import {FaLinkedin} from 'react-icons/fa'
+import {FaFacebook} from 'react-icons/fa6'
 // Style
 import './Footer.css';
 
@@ -18,20 +20,22 @@ const Footer = () => {
             <div className="inner">
               <div>
                 <h3>Managed by RADEE8</h3>
-                <div>
+                <div className='ficon'>
                   <a
-                    href="https://www.youtube.com/"
+                    href="https://www.linkedin.com/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img src={YouTubeBW} alt="YouTube"></img>
+                    {/* <img src={YouTubeBW} alt="YouTube"></img> */}
+                    <FaLinkedin style={{color:'#808080'}}/>
                   </a>
                   <a
-                    href="https://www.twitter.com/"
+                    href="https://www.facebook.com/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img src={TwitterBW} alt="Twitter"></img>
+                    {/* <img src={TwitterBW} alt="Twitter"></img> */}
+                    <FaFacebook style={{color:'#808080'}}/>
                   </a>
                 </div>
                 <br />
