@@ -278,7 +278,7 @@ const Home = () => {
             />
             <Card
               slogan="Your Success, Our Commitment"
-              title="ICollaborative Partnership:"
+              title="Collaborative Partnership:"
               description="Radee8 is not just a service provider; we are your dedicated partners in shaping a successful international future."
               link="#"
             />
@@ -343,9 +343,7 @@ const Home = () => {
               >
                 <h3>RADEE8 Blogs</h3>
                 <p>
-                  Some more RADDE8 changes from Jacob & Joe. Subscribe to the
-                  newsletter: https://RADDE8.us17.list-manage.com/s... Proposal
-                  - Priced Compute Units: ...
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <Button
                   link="#"
@@ -401,7 +399,7 @@ const Home = () => {
                 data-aos-duration="1500"
               >
                 <div className="glass">
-                  <h3>Even more resources</h3>
+                  <h3>Let's Connect </h3>
                   <p>
                     More videos, more episodes. Discussions between industry
                     leaders in both blockchain and technology, our team, and

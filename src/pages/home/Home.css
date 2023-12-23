@@ -182,7 +182,7 @@
   position: absolute;
   bottom: -50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -30%);
   height: 50%;
   width: 50%;
   border-radius: 50%;
@@ -190,7 +190,7 @@
   z-index: -1;
   filter: blur(5rem);
   transition-timing-function: ease-in-out;
-  transition-duration: 300ms;
+  transition-duration: 700ms;
 }
 
 .our-values .wrapper {
@@ -273,7 +273,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 3rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border: 0.1rem solid var(--white);
   padding: 0.8rem 3rem;
 }
@@ -540,6 +540,7 @@
   }
   .herosecond .hero-text{
     display: flex;
+    
     position: absolute;
     /* top: 30px; */
   }
@@ -550,9 +551,9 @@
     padding: 16px 0px;
   }
   .hero p{
-    font-size: 16px;
+    font-size: 14px;
   }
   .hero-text .inner h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 }
