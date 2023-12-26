@@ -8,10 +8,40 @@ article.card {
   transition-duration: 300ms;
 }
 
-article.card:hover {
-  transform: translateY(-1rem);
+
+.approach article.card:nth-child(1)::before {
+  height: 40%;
+  width: 50%;
 }
 
+.approach article.card:nth-child(2)::before {
+  height: 45%;
+  width: 55%;
+}
+
+.approach article.card:nth-child(3)::before {
+  height: 50%;
+  width: 60%;
+}
+
+.approach article.card:nth-child(4)::before {
+  height: 55%;
+  width: 70%;
+}
+
+.approach article.card:nth-child(5)::before {
+  height: 65%;
+  width: 80%;
+}
+
+.approach article.card:nth-child(6)::before {
+  height: 70%;
+  width: 90%;
+}
+.approach article.card:hover::before{
+  height: 70%;
+  width: 50%;
+}
 article.card .text-green {
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -46,6 +76,9 @@ article.card .card-button::before {
   height: 100%;
   width: 2rem;
   background: url('../../assets/images/learn-more.png') no-repeat;
+}
+article.card:hover {
+  transform: translateY(-1rem);
 }
 
 /* Media Queries */

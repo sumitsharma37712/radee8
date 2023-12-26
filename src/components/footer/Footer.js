@@ -1,14 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import {FaLinkedin} from 'react-icons/fa'
-import {FaFacebook} from 'react-icons/fa6'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaXTwitter } from 'react-icons/fa6'
 // Style
 import './Footer.css';
 
 // Images
-import YouTubeBW from '../../assets/images/youtube-bw.png';
-import TwitterBW from '../../assets/images/twitter-bw.png';
 import GlobeIcon from '../../assets/images/globe.png';
 
 const Footer = () => {
@@ -19,7 +17,7 @@ const Footer = () => {
           <div className="column column-50 copyright">
             <div className="inner">
               <div>
-                <h3>Managed by RADEE8</h3>
+                <h4>Managed by RADEE8</h4>
                 <div className='ficon'>
                   <a
                     href="https://www.linkedin.com/"
@@ -27,15 +25,14 @@ const Footer = () => {
                     target="_blank"
                   >
                     {/* <img src={YouTubeBW} alt="YouTube"></img> */}
-                    <FaLinkedin style={{color:'#808080'}}/>
+                    <FaLinkedin style={{ color: '#fff' }} />
                   </a>
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://www.twitter.com/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    {/* <img src={TwitterBW} alt="Twitter"></img> */}
-                    <FaFacebook style={{color:'#808080'}}/>
+                    <FaXTwitter style={{ color: '#ffff' }} />
                   </a>
                 </div>
                 <br />

@@ -282,6 +282,11 @@
   display: flex;
   gap: 5px;
 }
+.inner-icon:hover {
+  background-color: var(--green);
+  color: black;
+}
+
 
 .newsletter .glass .row a img {
   height: 1.5rem;
@@ -540,20 +545,22 @@
   }
   .herosecond .hero-text{
     display: flex;
-    
     position: absolute;
     /* top: 30px; */
+    padding: 0px 10px;
   }
 }
 @media screen and (max-width:440px){
   /* hero section */
-  .herosecond.hero-text{
-    padding: 16px 0px;
+  .herosecond .hero-text{
+    padding: 10px 0px;
   }
-  .hero p{
-    font-size: 14px;
+  .herosecond .hero-text p{
+    text-align: justify;
+    font-size: 3.5vw !important;
   }
   .hero-text .inner h1{
-    font-size: 2.8rem;
+    /* font-size: 2.8rem; */
+    font-size: 8vw;
   }
 }

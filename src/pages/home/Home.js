@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {FaLinkedin} from 'react-icons/fa'
-import {FaFacebook} from 'react-icons/fa6'
+import {FaFacebook, FaXTwitter} from 'react-icons/fa6'
 // Style
 import './Home.css';
 
@@ -23,7 +23,7 @@ const Home = () => {
         <div className="container">
           <div className="row flex-wrap wrap-reverse align-items-center herosecond  ">
             <div className="column column-60 hero-text">
-              <div className="inner">
+              <div className="inner ">
                 <h1 data-aos="fade-up" data-aos-duration="1000">
                   Elevate Your Global Business with Radee8
                 </h1>
@@ -411,24 +411,22 @@ const Home = () => {
                         <a
                           href="https://www.linkedin.com/"
                           rel="noreferrer"
-                          target="_blank"
+                          target="_blank" className='inner-icon'
                         >
-                          LinkedIn &nbsp;<FaLinkedin style={{color:'#808080'}}/>
+                          LinkedIn <FaLinkedin style={{color:'#ffff'}}/>
                         </a>
                       </div>
                     </div>
                     <div className="column column-50">
                       <div className="inner">
                         <a
-                          href="https://www.facebook.com/"
+                          href="https://www.twitter.com/"
                           rel="noreferrer"
                           target="_blank" className='inner-icon'
                           >
-                          Facebook 
-                          <div>
-                            <FaFacebook style={{color:'#808080'}}/>
+                          Twitter <FaXTwitter style={{color:'#ffff'}}/>
 
-                          </div>
+                        
 
                           {/* Facebook &nbsp; <img src={podcastIcon} alt="Podcast"></img> */}
                         </a>

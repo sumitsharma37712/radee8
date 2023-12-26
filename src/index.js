@@ -12,9 +12,8 @@ import App from './App.js';
 const Home = lazy(() => import('./pages/home/Home.js'));
 const About = lazy(() => import('./pages/about/About.js'));
 const Services = lazy(() => import('./pages/services/Services.js'));
-const SuccessStory = lazy(() =>
-  import('./pages/success-story/SuccessStory.js')
-);
+const SuccessStory = lazy(() => import('./pages/success-story/SuccessStory.js'));
+const Nopage=lazy(()=>import('./pages/nopage/Nopage.js'));
 
 const root = ReactDom.createRoot(document.getElementById('root'));
 
@@ -54,6 +53,15 @@ const appRoutes = createBrowserRouter([
         element: (
           <Suspense fallback={'Loading...'}>
             <SuccessStory />
+          </Suspense>
+        ),
+        errorElement: <RouteError />,
+      },
+      {
+        path: '*',
+        element: (
+          <Suspense fallback={'Loading...'}>
+            <Nopage />
           </Suspense>
         ),
         errorElement: <RouteError />,
