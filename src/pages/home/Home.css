@@ -283,8 +283,15 @@
   gap: 5px;
 }
 .inner-icon:hover {
-  background-color: var(--green);
+  background-color: var(--white);
   color: black;
+}
+.inner-icon:hover  svg{
+  color: black !important;
+}
+
+.inner-icon  svg{
+  font-size: 23px;
 }
 
 
