@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="column column-50 copyright">
             <div className="inner">
               <div>
-                <h4>Managed by RADEE8</h4>
+                <h3>Managed by RADEE8</h3>
                 <div className='ficon'>
                   <a
                     href="https://www.linkedin.com/"
@@ -35,6 +35,8 @@ const Footer = () => {
                     <FaXTwitter style={{ color: '#ffff' }} />
                   </a>
                 </div>
+                <br />
+                  <hr style={{width:"75%"}}/>
                 <br />
                 <p>&copy; 2023 RADEE8. All rights reserved.</p>
               </div>

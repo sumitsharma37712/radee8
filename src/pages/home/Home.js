@@ -121,8 +121,9 @@ const Home = () => {
                             data-aos-duration="500"
                           >
                             <Tile
-                              percentage="85%"
-                              title="With a team boasting"
+                              percentage="40%"
+                              title="savings on labour cost"
+                              smallcont="*Deloitte"
                             />
                           </div>
                         </div>
@@ -133,8 +134,9 @@ const Home = () => {
                             data-aos-duration="1500"
                           >
                             <Tile
-                              percentage="85%"
-                              title="With a team boasting"
+                              percentage="25%"
+                              title="increase in efficiency"
+                              smallcont="*McKinsey"
                             />
                           </div>
                         </div>
@@ -145,8 +147,9 @@ const Home = () => {
                             data-aos-duration="1500"
                           >
                             <Tile
-                              percentage="85%"
-                              title="With a team boasting"
+                              percentage="79%"
+                              title="more flexibale and aglie workforce"
+                              smallcont="*Upwork"
                             />
                           </div>
                         </div>
@@ -189,38 +192,44 @@ const Home = () => {
                 data-aos-duration="1000"
               >
                 <Card
+                  title="Entity Setup & Management"
                   slogan="Your Success, Our Priority"
-                  title="Client-Centric Solutions"
+                  bold="Client-Centric Solutions"
                   description="At Radee8, your success is our paramount focus. Our client-centric approach means we tailor solutions to your unique needs,"
                   link="#"
                 />
                 <Card
+                  title="Administration & Facilities Managemnet"
                   slogan="Decades of Excellence"
-                  title="Proven Expertise:"
+                  bold="Proven Expertise:"
                   description="Backed by a success rate of 95%, our team brings decades of collective experience to the table."
                   link="#"
                 />
                 <Card
+                  title="Accounting & Taxation"
                   slogan="Every Stage, Every Solution"
-                  title="Holistic Approach:"
+                  bold="Holistic Approach:"
                   description="From inception to expansion, our services are seamlessly integrated into a cohesive strategy for success."
                   link="#"
                 />
                 <Card
+                  title="Shared Human Resources"
                   slogan="Forward-Thinking Strategies"
-                  title="Innovative Solutions:"
+                  bold="Innovative Solutions:"
                   description="We pride ourselves on implementing forward-thinking strategies that anticipate to the evolving needs of your business."
                   link="#"
                 />
                 <Card
+                  title="Payroll Services"
                   slogan="Borders Beyond Boundaries"
-                  title="Global Perspective:"
+                  bold="Global Perspective:"
                   description="Our global perspective extends beyond borders. Radee8 understands the intricacies of international markets and leverages."
                   link="#"
                 />
                 <Card
+                  title="Technical & Software Complianace"
                   slogan="Your Success, Our Commitment"
-                  title="ICollaborative Partnership:"
+                  bold="ICollaborative Partnership:"
                   description="Radee8 is not just a service provider; we are your dedicated partners in shaping a successful international future."
                   link="#"
                 />
@@ -293,7 +302,10 @@ const Home = () => {
               Our Values
             </h3>
             <p data-aos="fade-up" data-aos-duration="1500">
-              Read the documentation for RADDE8 and popular tools.
+            Radee8 strives tirelessly to stand-on it's core values of Reliability, Simplicty, and Trust.
+              It is our focused commitment and <b> Mission</b> to deliver Our Services through these values.
+              <br />
+              Our <b>Vision</b> is to build a better <b>Future</b> through technology.
             </p>
           </div>
           <div className="row flex-wrap values">
@@ -304,7 +316,7 @@ const Home = () => {
                 </h3>
                 <hr></hr>
                 <p data-aos="fade-up" data-aos-duration="1500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                We realize that offering value to customers can be achieved through a straightforward and transparent approach, therefore Radee8 provides solutions that sound simple and work. We try to provide minimalistic, effective solutions to complex business problems.
                 </p>
               </div>
             </div>
@@ -316,7 +328,7 @@ const Home = () => {
                 </h3>
                 <hr></hr>
                 <p data-aos="fade-up" data-aos-duration="1500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Radee8 looks beyond the present to deliver future values. We care about our stakeholders. We are someone you can count on, taking ownership through our actions has been our guiding principle.
                 </p>
               </div>
             </div>
@@ -328,7 +340,7 @@ const Home = () => {
                 </h3>
                 <hr></hr>
                 <p data-aos="fade-up" data-aos-duration="1500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                We believe in doing the right thing always. We honor our commitments and believe in complete transparency.
                 </p>
               </div>
             </div>
@@ -343,7 +355,7 @@ const Home = () => {
               >
                 <h3>RADEE8 Blogs</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Comming Soon!!
                 </p>
                 <Button
                   link="#"

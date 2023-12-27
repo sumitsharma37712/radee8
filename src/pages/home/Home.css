@@ -18,7 +18,7 @@
 
 .hero .graphics img {
   width: 100%;
-  animation: anim 5s linear infinite;
+  animation: anim 30s linear infinite;
 }
 
 @keyframes anim {
@@ -291,7 +291,7 @@
 }
 
 .inner-icon  svg{
-  font-size: 23px;
+  font-size: 21px;
 }
 
 
