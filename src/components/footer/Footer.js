@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { FaLinkedin } from 'react-icons/fa'
-import { FaFacebook, FaXTwitter } from 'react-icons/fa6'
+import { FaXTwitter } from 'react-icons/fa6'
 // Style
 import './Footer.css';
 
