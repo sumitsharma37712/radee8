@@ -4,7 +4,16 @@ import React from 'react';
 import './SuccessStory.css';
 
 const SuccessStory = () => {
-  return <div>Success Story</div>;
+  return <div
+  style={{
+    minHeight: "100vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  }}
+>
+ Error 404 || This page is not found! 
+</div>;
 };
 
 export default SuccessStory;

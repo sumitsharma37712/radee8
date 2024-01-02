@@ -16,11 +16,15 @@ const App = () => {
     Aos.init({ disable: 'mobile' });
   }, []);
   return (
+    <>
+    <div className='float'> 
+  </div>
     <main className="main" id="main">
       <Header />
       <Outlet />
       <Footer />
     </main>
+    </>
   );
 };
 

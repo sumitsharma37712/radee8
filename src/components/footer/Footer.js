@@ -20,7 +20,7 @@ const Footer = () => {
                 <h3>Managed by RADEE8</h3>
                 <div className='ficon'>
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/company/radee8"
                     rel="noreferrer"
                     target="_blank"
                   >
@@ -28,7 +28,7 @@ const Footer = () => {
                     <FaLinkedin style={{ color: '#fff' }} />
                   </a>
                   <a
-                    href="https://www.twitter.com/"
+                    href="https://twitter.com/Radee8Official"
                     rel="noreferrer"
                     target="_blank"
                   >

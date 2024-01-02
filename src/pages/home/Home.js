@@ -101,9 +101,7 @@ const Home = () => {
                     <p data-aos="fade-up" data-aos-duration="1500">
                       At Radee8, we are more than consultants; we are architects
                       of success, dedicated to empowering global ventures. Our
-                      journey is defined by a passion for strategic excellen nd
-                      a and a commitment to turning business aspiration s
-                      thriving thriving realities.
+                      journey is defined by a passion for strategic excellence and a commitment to turning business aspirations thriving  realities.
                     </p>
                     <p data-aos="fade-up" data-aos-duration="2000">
                       <Button link="#" text="Learn More" title="Learn More" />
@@ -195,11 +193,11 @@ const Home = () => {
                   title="Entity Setup & Management"
                   slogan="Your Success, Our Priority"
                   bold="Client-Centric Solutions"
-                  description="At Radee8, your success is our paramount focus. Our client-centric approach means we tailor solutions to your unique needs,"
+                  description="At Radee8, your success is our paramount focus. Our client-centric approach means we tailor solutions to your unique needs."
                   link="#"
                 />
                 <Card
-                  title="Administration & Facilities Managemnet"
+                  title="Administration & Facilities Management"
                   slogan="Decades of Excellence"
                   bold="Proven Expertise:"
                   description="Backed by a success rate of 95%, our team brings decades of collective experience to the table."
@@ -227,9 +225,9 @@ const Home = () => {
                   link="#"
                 />
                 <Card
-                  title="Technical & Software Complianace"
+                  title="Technical & Software Compliance"
                   slogan="Your Success, Our Commitment"
-                  bold="ICollaborative Partnership:"
+                  bold="Collaborative Partnership:"
                   description="Radee8 is not just a service provider; we are your dedicated partners in shaping a successful international future."
                   link="#"
                 />
@@ -302,7 +300,7 @@ const Home = () => {
               Our Values
             </h3>
             <p data-aos="fade-up" data-aos-duration="1500">
-            Radee8 strives tirelessly to stand-on it's core values of Reliability, Simplicty, and Trust.
+            Radee8 strives tirelessly to stand-on it's core values of Reliability, Simplicity, and Trust.
               It is our focused commitment and <b> Mission</b> to deliver Our Services through these values.
               <br />
               Our <b>Vision</b> is to build a better <b>Future</b> through technology.
@@ -312,7 +310,7 @@ const Home = () => {
             <div className="column column-50">
               <div className="inner">
                 <h3 data-aos="fade-up" data-aos-duration="1000">
-                  Simplicty
+                  Simplicity
                 </h3>
                 <hr></hr>
                 <p data-aos="fade-up" data-aos-duration="1500">
@@ -340,7 +338,7 @@ const Home = () => {
                 </h3>
                 <hr></hr>
                 <p data-aos="fade-up" data-aos-duration="1500">
-                We believe in doing the right thing always. We honor our commitments and believe in complete transparency.
+                We believe in doing the right thing always. We honour our commitments and believe in complete transparency.
                 </p>
               </div>
             </div>
@@ -355,7 +353,7 @@ const Home = () => {
               >
                 <h3>RADEE8 Blogs</h3>
                 <p>
-                  Comming Soon!!
+                  Coming Soon!!
                 </p>
                 <Button
                   link="#"
@@ -421,7 +419,7 @@ const Home = () => {
                     <div className="column column-50">
                       <div className="inner">
                         <a
-                          href="https://www.linkedin.com/"
+                          href="https://www.linkedin.com/company/radee8"
                           rel="noreferrer"
                           target="_blank" className='inner-icon'
                         >
@@ -432,7 +430,7 @@ const Home = () => {
                     <div className="column column-50">
                       <div className="inner">
                         <a
-                          href="https://www.twitter.com/"
+                          href="https://twitter.com/Radee8Official"
                           rel="noreferrer"
                           target="_blank" className='inner-icon'
                           >

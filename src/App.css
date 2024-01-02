@@ -88,6 +88,7 @@ img {
   background: var(--white);
   color: var(--black);
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -96,19 +97,19 @@ img {
 /* Track */
 ::-webkit-scrollbar-track {
   background-color: var(--black);
-  box-shadow: inset 0 0 5px var(--black); 
+  box-shadow: inset 0 0 5px var(--black);
   /* border-radius: 10px; */
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--green); 
+  background: var(--green);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #71ff4d75;
+  background: #71ff4d75;
 }
 
 .container {
@@ -249,4 +250,35 @@ img {
   .grid3x3 {
     grid-template-columns: 1fr;
   }
+}
+
+.float {
+  height: 300px;
+  background-image: url(../src//assets/images/cunstructq.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: black;
+  max-width: 300px;
+  width: 100%;
+  position: fixed;
+  right: 10%;
+  top: 20%;
+  z-index: 5;
+  border-radius: 25px;
+  box-shadow: 5px 5px 25px var(--black);
+  animation: float 10s infinite 0.2s;
+}
+
+@keyframes float {
+  0%,100% {
+    right: 10%;
+    top: 20%
+  }
+
+  50% {
+    right: 80%;
+    top: 40%;
+  }
+
+  
 }

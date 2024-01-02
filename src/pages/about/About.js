@@ -1,10 +1,21 @@
-import React from 'react';
+import React from "react";
 
 // Style
-import './About.css';
+import "./About.css";
 
 const About = () => {
-  return <div>About Us</div>;
+  return (
+    <div
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      Error 404 || This page is not found!
+    </div>
+  );
 };
 
 export default About;
