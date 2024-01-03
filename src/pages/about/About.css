@@ -278,7 +278,7 @@
     }
   
     .floating-cards-block .parallax-cards {
-      width: 220px;
+      width: 100%;
     }
   
     .floating-cards-block .parallax-cards .card-body {
@@ -305,7 +305,7 @@
     }
   
     .floating-cards-block .floating-cards-stage > div h2 {
-      font-size: 2.4rem;
+      font-size: 4.4rem;
     }
   }
   

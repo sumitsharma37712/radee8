@@ -31,17 +31,12 @@ const About = () => {
   }
   const headingOne = useRef(null);
   const headingTwo = useRef(null);
-  const tilt = useRef(null);
   const animate_X = (e) => {
     const x = (window.innerWidth = e.pageX) / 10;
     headingOne.current.style.transform = `translateX(${x}px)`;
     headingTwo.current.style.transform = `translateX(-${x}px)`;
   };
 
-  // const tiltImage = (e) => {
-  //   const x = (window.innerWidth = e.pageX) / 10;
-  //   tilt.current.style.transform = `translate(${x}px)`;
-  // };
   return (
     <>
       <section className="hero" id="hero">

@@ -13,7 +13,7 @@ import './App.css';
 
 const App = () => {
   useEffect(() => {
-    Aos.init({ disable: 'mobile' });
+    Aos.init();
   }, []);
   return (
     <>

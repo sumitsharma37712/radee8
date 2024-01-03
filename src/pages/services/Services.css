@@ -1,0 +1,93 @@
+.service-section {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sectionHead {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    padding: 25px;
+    background: url("../../assets/images/ellipse.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.sectionHead h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0px black;
+}
+
+.sectionHead p {
+    text-shadow: 25px 5px 10px black;
+
+}
+
+.serviceBody {
+    display: flex;
+    margin: 10rem 0;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    gap: 5rem;
+    background: url("../../assets/images/bg-gradient-blue.png");
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    backdrop-filter: blur(5px);
+}
+
+.show-on-mobile {
+    display: none;
+}
+
+.serviceBody img {
+    width: 100%;
+    border-radius: 25px;
+    transition: 0.5s;
+
+}
+
+.serviceBody img:hover {
+    transform: scale(1.1);
+}
+
+.serviceBody:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.serviceBody div h3 {
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:767px) {
+    .serviceBody {
+        flex-direction: column;
+    }
+
+    .serviceBody:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .show-on-mobile {
+        display: block;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+    .sectionHead h1{
+        font-size: 3rem;
+    }
+
+}
