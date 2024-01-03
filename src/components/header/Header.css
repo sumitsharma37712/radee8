@@ -79,10 +79,13 @@ header .menus .nav-item:has(.submenu)::before {
   width: 1.5rem;
   background: url('../../assets/images/caret-down.png') no-repeat;
   opacity: 0.5;
+  transition: all 0.5s ;
 }
 
 header .menus .nav-item:hover::before {
   opacity: 1;
+  transform: rotate(180deg);
+  top:-1rem;
 }
 
 header .menus .nav-item:hover a {

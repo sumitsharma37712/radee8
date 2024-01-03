@@ -17,8 +17,7 @@ const App = () => {
   }, []);
   return (
     <>
-    <div className='float'> 
-  </div>
+    {/* <div className='float'> </div> */}
     <main className="main" id="main">
       <Header />
       <Outlet />
